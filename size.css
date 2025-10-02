@@ -4,7 +4,7 @@
     padding: 24px 8px;
   }
   .main-content {
-    padding-top: 48px;
+    padding-top: 24px;
   }
 }
 @media (max-width: 768px) {
@@ -25,6 +25,6 @@
     font-size: 14px;
   }
   .main-content {
-    padding-top: 32px;
+    padding-top: 16px;
   }
 }
