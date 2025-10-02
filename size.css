@@ -4,7 +4,7 @@
     padding: 24px 8px;
   }
   .main-content {
-    padding-top: 48px;
+    padding-top: 96px;
   }
 }
 @media (max-width: 768px) {
@@ -13,17 +13,18 @@
     padding: 16px 4px;
     font-size: 16px;
   }
-  .main-content {
-    padding-top: 40px;
+  p {
+    color:purple;
   }
 }
+
 @media (max-width: 375px) {
   #navbar {
     height: 32px;
     padding: 8px 2px;
     font-size: 14px;
   }
-  .main-content {
-    padding-top: 32px;
+  p {
+    padding-top: 64px;
   }
 }
