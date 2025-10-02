@@ -24,7 +24,7 @@
     padding: 8px 2px;
     font-size: 14px;
   }
-  p {
+  .main-content {
     padding-top: 64px;
   }
 }
