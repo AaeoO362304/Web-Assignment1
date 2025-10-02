@@ -1,0 +1,29 @@
+@media (max-width: 1024px) {
+  #navbar {
+    height: 48px;
+    padding: 24px 8px;
+  }
+  .main-content {
+    padding-top: 48px;
+  }
+}
+@media (max-width: 768px) {
+  #navbar {
+    height: 40px;
+    padding: 16px 4px;
+    font-size: 16px;
+  }
+  .main-content {
+    padding-top: 40px;
+  }
+}
+@media (max-width: 375px) {
+  #navbar {
+    height: 32px;
+    padding: 8px 2px;
+    font-size: 14px;
+  }
+  .main-content {
+    padding-top: 32px;
+  }
+}

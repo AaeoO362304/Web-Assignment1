@@ -1,55 +1,32 @@
-
-
-.navbar {
-  position: fixed;       /* Fixes navbar in place */
-  top: 50%;              /* Vertically centers relative to the viewport */
-  right: 0;              /* Sticks to the right edge */
-  transform: translateY(-50%); /* Perfect vertical center offset */
-  display: flex;
-  flex-direction: column;      /* Stack items vertically */
-  gap: 20px;             /* Space between items */
-  padding: 12px;         /* Optional: adds padding */
-  background: #fff;      /* Optional: style background */
+#navbar {
+  text-align: center;
+  position:fixed;
+  top:0;
+  left:0;
+  background-color: rgb(108, 99, 99);
+  height: 50px;
+  padding: 0.5em;
+  margin:0;
+  z-index: 100;
+  min-width: 100%;
 }
 
-body {
-  min-height: 100vh;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: stretch;
-  background: linear-gradient(to right, #640000 0 20vw, transparent 20vw 80vw, #640000 80vw 100vw);
-}
-.middle-field {
-  width: 60vw;
-  min-height: 100vh;
-  background: #760202;
-  padding: 40px 20px;
+li {
+  list-style: none;
+  display: inline;
+  margin-right: 40px;
+  font-size: 200%;
 }
 
-
-/* 1024px and below: Small desktops */
-@media (max-width: 1024px) {
-  .middle-field {
-    width: 80vw;
-    padding: 32px 12px;
-  }
+a:visited {
+  color: black;
 }
 
-/* 768px and below: Tablets */
-@media (max-width: 768px) {
-  .middle-field {
-    width: 95vw;
-    padding: 16px 4vw;
-    font-size: 16px;
-  }
+a:hover {
+  color: white;
 }
 
-/* 375px and below: Mobile phones */
-@media (max-width: 375px) {
-  .middle-field {
-    width: 100vw;
-    padding: 8px 2vw;
-    font-size: 14px;
-  }
+.main-content {
+  padding-top: 56px;
 }
+
