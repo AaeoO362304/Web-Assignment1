@@ -13,6 +13,9 @@
     padding: 16px 4px;
     font-size: 16px;
   }
+  .main-content {
+    padding-top: 0px;
+  }
 }
 
 @media (max-width: 375px) {
@@ -21,5 +24,7 @@
     padding: 8px 2px;
     font-size: 14px;
   }
-
+  .main-content {
+    padding-top: 0px;
+  }
 }
