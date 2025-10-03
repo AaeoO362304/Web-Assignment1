@@ -27,6 +27,49 @@ a:hover {
 }
 
 .main-content {
-  padding-top: 0px;
+  font-size: 150%;
+  padding-top: 30px;
 }
 
+.port1 img {
+  max-width: 200px;
+  height: auto;
+}
+
+#Cinema img {
+  max-width:1000px;
+  height: auto;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  display:block;
+}
+
+h4 {
+  text-decoration: underline;
+  font-size: 120%;
+}
+
+.imp {
+  font-weight: bold;
+}
+
+.flex-container {
+  display:flex;
+  width: 1000px;
+  height: 1000px;
+  flex-direction: row;
+}
+
+.flex-container img {
+  width: 350px;
+  height: auto;
+}
+
+h2 {
+  text-decoration: underline;
+  padding-top: 50px;
+  font-size: 200%;
+}
